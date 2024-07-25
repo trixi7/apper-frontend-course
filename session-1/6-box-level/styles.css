@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for header section */
+header {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+.header-content {
+    font-family: 'Arial';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for header content section */
+.logo span {
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d60000;
+}
+
+.watch span {
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.explore span {
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 100px;
+    background-color: #000000;
+}
+
+.search span {
+    padding: 15px 300px;
+    font-size: 15px;
+    color: #333;
+    border-radius: 100px;
+    background-color: #eaeaea;
+}
+
+.login span {
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 100px;
+    background-color: #eaeaea;
+}
+
+.signup span {
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 100px;
+    background-color: #d60000;
+}
+
+/* Style for h1: Explore the Best of Pinterest*/
+.header-title {
+    font-family: 'Arial';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Style for category section */
+.category-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; 
+}
+
+.category-block {
+    font-family: 'Arial';
+    width: 370px;
+    height: 250px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Always show action-box */
+.action-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    background-color: #eaeaea;
+}
+
+/* Style for interests section */
+.interests-heading {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+
+.interests-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px; 
+}
+
+.interest-block {
+    font-family: 'Arial';
+    width: 220px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.interest-block span {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
